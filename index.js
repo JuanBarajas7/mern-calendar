@@ -31,3 +31,8 @@ app.use('/api/events', require('./routes/events'));
 app.listen(process.env.PORT, ()=>{
     console.log(`Servidor corriendo en puerto ${process.env.PORT}`);
 })
+
+
+app.get("/",(req,res)=>{
+    res.send("La pagina de inicio");
+});
