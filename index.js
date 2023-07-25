@@ -32,7 +32,7 @@ app.listen(process.env.PORT, ()=>{
     console.log(`Servidor corriendo en puerto ${process.env.PORT}`);
 })
 
-
-app.get("/",(req,res)=>{
-    res.send("La pagina de inicio");
-});
+// lo había escrito ya que en un tutorial de como desplegar en vercel lo pusieron
+// app.get("/",(req,res)=>{
+//     res.send("La pagina de inicio");
+// });
